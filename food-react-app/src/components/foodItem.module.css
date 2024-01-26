@@ -5,13 +5,44 @@
     padding: 10px;
     margin-top: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-    width: 40vw;
+    width: 400px;
     text-align: center;
 }
 
-.itemDiv img {
-    width: 80%;
-    height: 50%;
-    object-fit: fill;
+.itemDiv:hover{
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.itemImage{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     border-radius: 4px;
+}
+
+.itemTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.itemMoreContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.itemButton{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #009688;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.itemButton:hover{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
