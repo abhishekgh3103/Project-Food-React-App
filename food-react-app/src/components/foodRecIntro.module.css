@@ -1,0 +1,28 @@
+.introDiv{
+    padding: 5px;
+    width: 100%;
+}
+
+.titleDiv {
+    padding: 10px;
+    font-size: 1em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.imgDiv img{
+    border-radius: 6px;
+    width: 100%;
+    height: auto;
+}
+
+.introDetails{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 30px;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
