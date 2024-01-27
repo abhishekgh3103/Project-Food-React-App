@@ -1,0 +1,4 @@
+.ContainerDiv{
+    display: flex;
+    justify-content: space-around;
+}
