@@ -10,6 +10,7 @@ import FoodRecipe from "./components/FoodRecipe";
 function App() {
   const [foodData, setFoodData] = useState([]);
   const [foodId, setFoodId] = useState('656329');
+  //api from Spoonacular API
   return (
     <>
     <Nav />
